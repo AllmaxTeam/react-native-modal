@@ -101,7 +101,7 @@ var Modal = React.createClass({
     var styles = this.props.style || DefaultStyles;
 
     if (customCloseButton) {
-      return React.addons.cloneWithProps(customCloseButton, null);
+      return React.cloneElement(customCloseButton, null);
     } else if (!hideCloseButton && onClose) {
       return (
         <TouchableOpacity onPress={onClose}>
@@ -122,7 +122,7 @@ var Modal = React.createClass({
       <View style={styles.modalPosition} {...responderProps}>
         {this.renderCloseButton()}
         <View style={styles.modal} pointerEvents={this.props.containerPointerEvents}>
-          {React.Children.map(this.props.children, React.addons.cloneWithProps)}
+          {React.Children.map(this.props.children, React.cloneElement)}
         </View>
       </View>
     );
