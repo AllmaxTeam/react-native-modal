@@ -42,5 +42,11 @@ module.exports = StyleSheet.create({
     backgroundColor: '#ffffff',
     borderRadius: 3,
     padding: 20,
+  },
+  modalPosition: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 100
   }
 });

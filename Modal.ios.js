@@ -119,7 +119,7 @@ var Modal = React.createClass({
     var responderProps = this.extractResponderProps();
 
     return (
-      <View {...responderProps} style={{height: 0}}>
+      <View style={styles.modalPosition} {...responderProps}>
         {this.renderCloseButton()}
         <View style={styles.modal} pointerEvents={this.props.containerPointerEvents}>
           {React.Children.map(this.props.children, React.addons.cloneWithProps)}
