@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "react-tween-state": "^0.0.5",
-    "react-native-overlay": "^0.3.0",
-    "react-native-blur": ">=0.5.2"
+    "react-native-overlay": "github.com/AllmaxTeam/react-native-overlay",
+    "react-native-blur": "^1.0.0"
   },
   "peerDependencies": {
     "react-native": ">=0.4.3"
