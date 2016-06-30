@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "react-tween-state": "^0.0.5",
-    "react-native-overlay": "github.com/AllmaxTeam/react-native-overlay",
+    "react-native-overlay": "https://github.com/AllmaxTeam/react-native-overlay",
     "react-native-blur": "^1.0.0"
   },
   "peerDependencies": {
